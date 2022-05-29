@@ -11,13 +11,13 @@ html{
 
 /* fondo de la pagina */
 
-main{
+/* main{
     margin-top: 1rem; 
     display: grid;
     grid-template-rows: 10vh 1fr 5vh;
     min-height: 100vh;
     min-width: 100vh;
-}
+} */
 
 main::after{
     content: "";
@@ -53,14 +53,6 @@ main::after{
     grid-row: 2 / 3;
 }
 
-/* .marcas li{
-    display: grid;
-    grid-column: 3;
-    grid-row: 3;
-    justify-content: center;
-    justify-items: center;
-} */
-
 .marcas img{
     width: 20vh;
     height: 20vh;
@@ -74,10 +66,15 @@ header{
     align-items: center;
     justify-content: space-around;
     background-color: #7e8df1;
+    background-image: linear-gradient(to right, #7e8df1, #6f7ee9, #606ee0, #505fd7, #4050ce, #4050ce, #4050ce, #4050ce, #505fd7, #606ee0, #6f7ee9, #7e8df1);
 }
 header picture{
     flex-basis: 40%;
+}
 
+.navegador a:hover {
+    background-color: black;
+    color: white;
 }
 
 .navegador a{
@@ -130,6 +127,7 @@ h1{
 
 h2{
     text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 p{
@@ -149,6 +147,9 @@ footer{
 }
 
 .formulario{
+    border: 2px solid black;
+    border-radius: 2rem;
+    background: #5050dd;
     text-align: center;
     display: block;
 }
@@ -190,12 +191,6 @@ input{
 }
 
 @media screen and (max-width: 480px) {
-
-    .listaProductos{
-        display: grid;
-        grid-template-columns: 280px;
-        margin: 5rem
-    }
 
     footer {
         flex-direction: column;
