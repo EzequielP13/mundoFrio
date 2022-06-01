@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap');@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -58,6 +59,7 @@ main::after{
     height: 20vh;
 
 }
+
 
 /* estilos header */
 
@@ -146,22 +148,6 @@ footer{
     color: white;
 }
 
-.formulario{
-    border: 2px solid black;
-    border-radius: 2rem;
-    background: #5050dd;
-    text-align: center;
-    display: block;
-}
-
-textarea{
-    width: 250px;
-    height: 100px;
-}
-
-input{
-    width: 250px;
-}
 
 .listaProductos{
     display: flex;
