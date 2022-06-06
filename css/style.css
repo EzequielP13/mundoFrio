@@ -20,6 +20,11 @@ html{
     min-width: 100vh;
 } */
 
+main{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 main::after{
     content: "";
     background-image: url(../Multimedia/brackground.jpg);
@@ -67,23 +72,22 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #7e8df1;
-    background-image: linear-gradient(to right, #7e8df1, #6f7ee9, #606ee0, #505fd7, #4050ce, #4050ce, #4050ce, #4050ce, #505fd7, #606ee0, #6f7ee9, #7e8df1);
+    background-color: #394ab9;
 }
 header picture{
     flex-basis: 40%;
 }
 
-.navegador a:hover {
+.navbar-nav a:hover {
     background-color: black;
     color: white;
 }
 
-.navegador a{
+.navbar-nav a{
     font-size: 1.5em;
 }
 
-.navegador{
+.navbar-nav{
     flex-basis: 60%;
     display: flex;
     list-style-type: none;
@@ -130,22 +134,45 @@ h1{
 h2{
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
+    font-size: 2em;
 }
 
 p{
     font-family: 'Nunito Sans', sans-serif;
+    font-size: 1em;
 }
 
 .textoInicial{
+    display: flex;
+    justify-content: center;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    width: 50%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorFormulario{
+    padding: 1rem;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 15px black;
+    background-color: white;
 }
 
 footer{
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: space-around;
-    background-color: black;
-    color: white;
+    justify-content: space-around; */
+    background-color: #394ab9;
+    color: rgb(0, 0, 0);
+    height: 3rem;
 }
 
 
@@ -180,5 +207,13 @@ footer{
 
     footer {
         flex-direction: column;
+        height: fit-content;
     }
+    .textoInicial{
+        width: 90%;
+    }
+}
+
+p{
+    margin: 0;
 }

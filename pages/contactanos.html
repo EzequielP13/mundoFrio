@@ -14,44 +14,59 @@
         <picture>
             <img src="../Multimedia/MundoFrio.svg" alt="logo" width="150vh" height="150vh">
         </picture>
-        <nav>
-            <ul class="navegador">
-                <li class="lista"><a class="boton" href="../index.html">Inicio</a></li>
-                <li class="lista"><a class="boton" href="./nosotros.html">Nosotros</a></li>
-                <li class="lista"><a class="boton" href="./productos.html">Productos</a></li>
-                <li class="lista"><a class="boton" href="./contactanos.html">Contactanos</a></li>
-                <li class="lista"><a class="boton" href="./visitanos.html">Visitanos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./productos.html">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contactanos.html">Contactanos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./visitanos.html">Visitanos</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <h1>Contacto</h1>
         <form action="formulario mx-auto">
-            <div class="mb-3 px-2">
-                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre">
-            </div>
-            <div class="mb-3 px-2">
-                <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su apellido">
-            </div>
-            <div class="mb-3 px-2">
-                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3 px-2">
-                <label for="exampleFormControlTextarea1" class="form-label">Sugerencia</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div class="contenedorFormulario">
+                <div class="mb-3 px-2">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre">
+                </div>
+                <div class="mb-3 px-2">
+                    <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su apellido">
+                </div>
+                <div class="mb-3 px-2">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3 px-2">
+                    <label for="exampleFormControlTextarea1" class="form-label">Sugerencia</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
             </div>
         </form>
     </main>
-    <footer>
-        <div>
-            <p>Seguinos en nuestras redes:</p>
-            <a href="https://www.facebook.com/MundoFrioGalvez"> <img src="../Multimedia/facebook.png" width="30" height="30" alt="Facebook" /> </a>
-            <a href="https://www.instagram.com/mundofriogalvez"> <img src="../Multimedia/instagram.png" width="30" height="30" alt="Instagram" /> </a>
+    <footer class="d-flex flex-row justify-content-around px-2">
+        <div class="d-flex flex-row justify-content-between align-items-center px-2">
+            <div class="px-2">
+                <p>Seguinos en nuestras redes:</p>
+            </div>
+            <div class="px-2">
+                <a href="https://www.facebook.com/MundoFrioGalvez"> <img src="../Multimedia/facebook.png" width="30" height="30" alt="Facebook" /> </a>
+                <a href="https://www.instagram.com/mundofriogalvez"> <img src="../Multimedia/instagram.png" width="30" height="30" alt="Instagram" /> </a>
+            </div>
         </div>
-        <p>Diseñado por Ezequiel Perez</p>
+        <div class="d-flex align-items-center px-2">
+            <p>Diseñado por Ezequiel Perez</p>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
