@@ -1,2 +1,36 @@
-div p {
-  font-size: medium; }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #394ab9; }
+  header picture {
+    flex-basis: 40%; }
+  header .navbar-nav a:hover {
+    background-color: black;
+    color: white; }
+
+.navbar-nav {
+  flex-basis: 60%;
+  display: flex;
+  list-style-type: none;
+  gap: 2em; }
+  .navbar-nav a {
+    font-size: 1.5em; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+footer {
+  background-color: #394ab9;
+  color: black;
+  height: 3rem; }
+
+.textoInicial {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  width: 50%; }

@@ -1,5 +1,4 @@
-div{
-    p{
-        font-size: medium;
-    }
-}
+@import './partials/header';
+@import './partials/footer';
+
+@import './views/home';

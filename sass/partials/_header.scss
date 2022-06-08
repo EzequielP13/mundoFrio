@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #394ab9;
+
+    & picture{
+        flex-basis: 40%;
+    }
+
+    .navbar-nav a:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+.navbar-nav{
+    flex-basis: 60%;
+    display: flex;
+    list-style-type: none;
+    gap: 2em;
+
+    & a{
+        font-size: 1.5em;
+    }
+}
+
+a{  
+    text-decoration: none;
+    color: black;
+}
