@@ -2,7 +2,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #394ab9;
+    background-color: map-get($colors, primary);
 
     & picture{
         flex-basis: 40%;

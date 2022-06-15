@@ -1,5 +1,5 @@
 footer{
-    background-color: #394ab9;
+    background-color: map-get($colors, primary);
     color: rgb(0, 0, 0);
     height: 3rem;
 }
