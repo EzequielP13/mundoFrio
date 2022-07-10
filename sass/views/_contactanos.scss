@@ -1,0 +1,13 @@
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorFormulario{
+    padding: 1rem;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 15px black;
+    background-color: white;
+}

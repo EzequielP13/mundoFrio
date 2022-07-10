@@ -7,3 +7,10 @@
     padding: 1rem;
     width: 50%;
 }
+
+@media screen and (max-width: 480px) {
+
+    .textoInicial{
+        width: 90%;
+    }
+}

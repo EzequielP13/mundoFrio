@@ -9,8 +9,11 @@ header{
     }
 
     .navbar-nav a:hover {
-        background-color: black;
+        background-color: #6174ee;
         color: white;
+        border-radius: 1rem 1rem 1rem 1rem;
+        padding: .3rem;
+        transform: scale(1.2)
     }
 }
 
