@@ -5,6 +5,7 @@
     justify-content: space-evenly;
     text-align: center;
     flex: 1 1;
+    
 
     & img{
         margin: 2px;
@@ -12,6 +13,12 @@
         border-radius: 1rem 1rem 1rem 1rem;
         border: .1rem solid gray;
     }
+
+    & p{
+        font-size: 1em;
+        margin-bottom: 3rem;
+    }
+    
 }
 
 .productos{

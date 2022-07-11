@@ -151,6 +151,9 @@ form {
     margin: 10 10 10px;
     border-radius: 1rem 1rem 1rem 1rem;
     border: .1rem solid gray; }
+  .listaProductos p {
+    font-size: 1em;
+    margin-bottom: 3rem; }
 
 .productos {
   width: 100vw;
